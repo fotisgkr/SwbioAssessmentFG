@@ -6,8 +6,8 @@ import pingouin as pg
 
 
 #access dataset from github repository
-TEM2024github = XXX
-data = pd.read_csv(TEM2024github")
+
+data = pd.read_csv("TEM2024.csv")
 
 #First look into the setup of the dataset. 
 print("The Dataset:\n")
@@ -59,6 +59,7 @@ anova_data = grouped[['Treatment', 'Ratio']].reset_index()
 
 #Welch's ANOVA using pingouin
 welch_anova = pg.welch_anova(dv='Ratio', between='Treatment', data=anova_data)
+
 
 # Output Welch's ANOVA results
 print("\nWelch's ANOVA Results:\n")

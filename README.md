@@ -19,9 +19,7 @@ C: Cells grown in galactose media + addition of Antimycin A (Induces H2O2 genera
 Each row represent an image. NoInteraction are the points where the FIJI gridlines crossed a mitochondrial membrane, and Interaction are the points where gridlines crossed through a MERC
 the proportion of interaction points to the total number of points represents the proportion of the mitochondrial membrane in contact with the ER in a sample
 
-TO RUN:
-
-Simply run the code, and the program will fetch the datset from this directory
+This script extracts data from the master file and groups them into repeats of treatments. it can be used even if the samples are out of order or codenamed in cases of wanting to remove bias. After summing up the interactions, nointeractions, it calculates the ratio of interactions:total and performs a Wilch's ANOVA (assuming unequal variance) to identify significant difference.
 
 This code requires the following modules:
 
@@ -29,3 +27,7 @@ pandas
 numpy
 scipy.stats
 pingouin
+
+TO RUN:
+
+Simply run the code, and the program will fetch the datset from this directory

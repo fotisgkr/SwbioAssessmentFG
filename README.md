@@ -23,11 +23,11 @@ This script extracts data from the master file and groups them into repeats of t
 
 This code requires the following modules:
 
-pandas
-numpy
-scipy.stats
-pingouin
+pandas,
+numpy,
+scipy.stats,
+pingouin,
 
 TO RUN:
 
-Simply run the code, and the program will fetch the datset from this directory
+After downloading the required modules, simply run the code, and the program will fetch the datset from this directory and run

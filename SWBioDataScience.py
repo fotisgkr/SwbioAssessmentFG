@@ -7,8 +7,8 @@ import pingouin as pg
 
 #access dataset from github repository
 
-
-data = pd.read_csv("TEM2024.csv")
+TEM2024 = "https://raw.githubusercontent.com/fotisgkr/SwbioAssessmentFG/main/TEM2024.csv"
+data = pd.read_csv("TEM2024")
 
 #First look into the setup of the dataset. 
 print("The Dataset:\n")

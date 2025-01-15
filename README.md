@@ -20,7 +20,8 @@ Each row represent an image. NoInteraction are the points where the FIJI gridlin
 the proportion of interaction points to the total number of points represents the proportion of the mitochondrial membrane in contact with the ER in a sample
 
 TO RUN:
-Download TEM2024.csv in this repository
+
+Simply run the code, and the program will fetch the datset from this directory
 
 This code requires the following modules:
 
